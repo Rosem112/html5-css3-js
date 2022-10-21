@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Folha de Pagamento</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  <h1>Cálculo de Salário</h1>
+  </header>
+  
+  <p><b>Salário Base:<b> <input type="number" name="salario" id="salario">
+  
+  <p><b>Adicional T/Serviço:<b>
+    <input type="number" name="bienio" id="bienio">
+  
+  <p><b>Dias úteis:<b>
+    <input type="number" name="diasuteis" id="diasuteis">
+  
+  <p><b>Domingos:<b>
+    <input type="number" name="domingo" id="domingo">
+    
+  <p><b>Feriados:<b>
+    <input type="number" name="feriado" id="feriado">
+    
+  <p><b>Folgas Trabalhada:</b>
+    <input type="number" name="folgatrab" id="folgatrab">
+  
+  <section>
+    <button onclick="calcular()"><b>Calcular<b>
+    </button>
+  </section><br>
+  
+  <div id="res">
+    <b>Resultado Aqui....<b>
+  </div>
+  <br>
+  <div id="soma">
+    
+  </div>
+  
+  <footer>
+    <p>&copy; Folha de Pagamento
+    </p>
+  </footer>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
